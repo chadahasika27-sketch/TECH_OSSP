@@ -1,8 +1,0 @@
-Fork() --> fork is used to create a new process , it is used to create a new child process in an existing parent process child process it returns 0 parent process it has no negative values on failure it returns negative values exec() family 
-execl() --> argument supplied as a list
-execp() --> searches command in path 
-execv() --> argument supplied as an array 
-execvp() --> array + search path 
-parent- child relationship --> a process using fork() becomes the child process that called fork().
-pid()--> process id ppid() --> parent process id cmd --> command used to create the process System call tracing :
-fork() --> creates process execve() --> executes a new process read() -> reads data write() -> writes data openat() --> opens data wait4() --> waits for child exit_group --> terminates process
