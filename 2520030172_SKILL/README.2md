@@ -1,0 +1,6 @@
+Capture Keyboard Input : Read characters entered by the user from the keyboard.
+Handle Backspace : Allow the user to delete the last entered character when Backspace is pressed.
+Process Enter Key : Detect the Enter key and treat it as the completion of the user's command.
+Manage Input Buffer : Store and manage the characters entered by the user until the command is submitted.
+Support Multi character commands : Allow users to enter complete Linux commands containing multiple characters.
+Test User Interaction : Test the shell by entering different commands and checking whether keyboard input, backspace, Enter, and command execution work correctly.
